@@ -1,6 +1,6 @@
 ############################################
 
-php .\vendor\proklung\bitrix.module.generator\bin\console make:module test.module fedy --entity=false --admin=false --serviceprovider=false
+./vendor/bin/module make:module test.module fedy --entity=false --admin=false --serviceprovider=false
 
 Где test.module - название модуля, а fedy - вендор модуля.
 
