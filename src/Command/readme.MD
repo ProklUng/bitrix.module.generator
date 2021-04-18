@@ -1,6 +1,6 @@
 ############################################
 
-php bin/console maker:module test.module fedy --entity=false --admin=false --serviceprovider=false
+php bin/console make:module test.module fedy --entity=false --admin=false --serviceprovider=false
 
 Где test.module - название модуля, а fedy - вендор модуля.
 
@@ -16,5 +16,7 @@ php bin/console maker:module test.module fedy --entity=false --admin=false --ser
 
 Автозагрузка классов без имплицитного указания в include.php: название файла в lowercase.
 Namespace: <вендор модуля>\<Название модуля до точки>\<Название модуля после точки>; 
+
+Название файла с классом только lowercase!
 
 ############################################
