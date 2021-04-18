@@ -21,5 +21,13 @@
     },
     "autoload": {
         "psr-4": {"ProklUng\\ModuleGenerator\\": "src"}
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "ProklUng\\ComposerScript\\InstallUpdateHandler::doInstall"
+        ],
+        "post-install-cmd": [
+            "ProklUng\\ComposerScript\\InstallUpdateHandler::doInstall"
+        ]
     }
 }
