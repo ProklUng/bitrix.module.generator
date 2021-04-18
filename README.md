@@ -1,0 +1,1 @@
+# Bitrix module generator

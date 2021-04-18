@@ -1,0 +1,6 @@
+/.idea/
+!/tests/
+!/src/
+/vendor/
+*.cache
+composer.lock

@@ -1,0 +1,25 @@
+{
+    "name": "proklung/bitrix.module.generator",
+    "description": "Console command for generation blank Bitrix module",
+    "type": "bitrix",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/ProklUng/bitrix.module.generator/issues",
+        "source": "https://github.com/ProklUng/bitrix.module.generator"
+    },
+    "authors": [
+        {
+            "name": "Gavrilov Fedy",
+            "email": "fedor.gavrilov.75@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "symfony/console": "~4|~5",
+        "symfony/filesystem": "~4|~5",
+        "maximaster/tools.twig": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {"ProklUng\\ModuleGenerator\\": "src"}
+    }
+}
