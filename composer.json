@@ -17,7 +17,7 @@
         "php": ">=7.3",
         "symfony/console": "~4|~5",
         "symfony/filesystem": "~4|~5",
-        "maximaster/tools.twig": "^1.1",
+        "twig/twig": "^1.41|^2.10",
         "proklung/bitrix.module.boilerplate": "^1.0"
     },
     "autoload": {
