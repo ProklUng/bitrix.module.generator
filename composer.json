@@ -14,10 +14,10 @@
         }
     ],
     "require": {
-        "php": ">=7.3",
+        "php": ">=7.3 | ^8",
         "symfony/console": "~4|~5",
         "symfony/filesystem": "~4|~5",
-        "twig/twig": "^1.43|^2.13",
+        "twig/twig": "^1.43|^2.13|^3",
         "proklung/bitrix.module.boilerplate": "^1.0"
     },
     "autoload": {
